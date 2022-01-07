@@ -20,7 +20,7 @@ func handleRequest(ctx context.Context, httpEvent events.APIGatewayProxyRequest)
 	err := json.Unmarshal(bytes, &evt)
 
 	if err != nil {
-		return "ERROR", err
+		return "ERR", err
 	}
 
 	return fmt.Sprintf("Hello %s", evt.Name), nil
