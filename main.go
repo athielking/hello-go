@@ -10,6 +10,7 @@ import (
 )
 
 //MyEvent is ... Lambda Function Input Object
+//Editing this to create a branch and PR
 type MyEvent struct {
 	Name string `json:"name"`
 }
