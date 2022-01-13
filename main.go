@@ -8,7 +8,7 @@ import (
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
 )
-
+//Another Edit
 //MyEvent is ... Lambda Function Input Object
 type MyEvent struct {
 	Name string `json:"name"`
