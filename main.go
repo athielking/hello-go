@@ -9,7 +9,7 @@ import (
 	"github.com/aws/aws-lambda-go/lambda"
 )
 
-//MyEvent is ... Lambda Function Input Object
+//MyEvent is ... Lambda Function Input Object testing for leankit
 type MyEvent struct {
 	Name string `json:"name"`
 }
